@@ -1,4 +1,4 @@
-import { createContext, useEffect, useState } from "react";
+import React, { createContext, useEffect, useState } from "react";
 import axios from 'axios';
 import { toast, ToastContainer } from 'react-toastify'; // toast import edildi
 import 'react-toastify/dist/ReactToastify.css';          // css import edildi
@@ -43,5 +43,7 @@ const ShopContextProvider = (props) => {
         </ShopContext.Provider>
     );
 };
+
+
 
 export default ShopContextProvider;
